@@ -7,9 +7,8 @@ import Container from '@material-ui/core/Container';
 // @own
 import Header from 'components/Header';
 import Sidebar from 'components/Sidebar';
-import Content from 'components/Content';
 
-function Layout() {
+function Layout({ children }) {
   return (
     <Container style={{
       maxWidth: 'initial',
@@ -23,7 +22,7 @@ function Layout() {
             <Sidebar />
           </Grid>
           <Grid item xs={9}>
-            <Content />
+            {children}
           </Grid>
         </Grid>
       </Grid>
