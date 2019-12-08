@@ -21,7 +21,7 @@ function Layout({ children }) {
           <Grid item xs={3}>
             <Sidebar />
           </Grid>
-          <Grid item xs={9}>
+          <Grid style={{ margin: '10px 30px' }} item xs={8}>
             {children}
           </Grid>
         </Grid>
