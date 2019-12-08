@@ -3,7 +3,6 @@ import React from 'react';
 import AddIcon from '@material-ui/icons/Add';
 import Collapse from '@material-ui/core/Collapse';
 import DeleteIcon from '@material-ui/icons/Delete';
-import Divider from '@material-ui/core/Divider';
 import EditIcon from '@material-ui/icons/Edit';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
@@ -13,8 +12,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import AssessmentIcon from '@material-ui/icons/Assessment';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import PlusOneIcon from '@material-ui/icons/PlusOne';
 import StarBorder from '@material-ui/icons/StarBorder';
 import TuneIcon from '@material-ui/icons/Tune';
 
