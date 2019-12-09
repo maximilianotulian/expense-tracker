@@ -45,7 +45,7 @@ export default function NestedList() {
       aria-labelledby="nested-list-subheader"
       className={classes.root}
     >
-      <ListItem button selected onClick={() => handleNavigation('home')}>
+      <ListItem button onClick={() => handleNavigation('home')}>
         <ListItemIcon>
           <AssessmentIcon />
         </ListItemIcon>
@@ -67,7 +67,7 @@ export default function NestedList() {
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
 
-      <Collapse in={open} timeout="auto" unmountOnExit>
+      <Collapse in={false && open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           <ListItem button className={classes.nested} onClick={() => handleNavigation('manager')}>
             <ListItemIcon>
